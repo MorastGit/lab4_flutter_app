@@ -1,17 +1,14 @@
-# flutter_lab4_app
+# Лабораторная работа 4-5 Flutter: структура UI и компонентный подход
 
-A new Flutter project.
+**Козубенко Елена**  
+**ИСП-241**  
+**12.10.2026**  
 
-## Getting Started
+## Что изучили
+- Работа со своими изображениями.
+-  Корректировка размера вставленных изображений
+- Создание отдельных переменных для более понятного и краткого использования их в виджетах
 
-This project is a starting point for a Flutter application.
+![img](img/imgg.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[ссылка на репозиторий в GitHub](https://github.com/MorastGit/lab4_flutter_app)
