@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 import 'styled_text.dart';
 
-class GradientContainer extends StatelessWidget {
+const startAlignment = Alignment.topCenter;
+const endAlignment = Alignment.bottomCenter;
 
+class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
     @override Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [Colors.blue, Colors.purple],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomRight,
+          begin: startAlignment,
+          end: endAlignment,
         ),
       ),
       child: Center(
-        child: StyledText()
+        child: StyledText('Hell o')
       ),
     );
   }
