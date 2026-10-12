@@ -8,15 +8,22 @@ class GradientContainer extends StatelessWidget {
   final Color color1;
   final Color color2;
   final Color color3;
+  var activeDiceImage = 
+    'assets/images/dice-1.png';
 
-  const GradientContainer(
+  GradientContainer(
     this.color1, 
     this.color2, 
     this.color3, 
     {super.key}
   );
 
-  void rollDice() {}
+  
+
+  void rollDice() {
+    activeDiceImage = 'assets/images/dice-4.png';
+    print('change image');
+  }
 
     @override Widget build(BuildContext context) {
     return Container(
@@ -32,7 +39,7 @@ class GradientContainer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(
-              'assets/images/dice-1.png',
+              activeDiceImage,
               width: 300,
             ),
           TextButton(
