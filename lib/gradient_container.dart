@@ -26,7 +26,9 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: Center(
-        child: StyledText('Hell o')
+        child: Image.asset(
+          'assets/images/dice-1.png'
+        )
       ),
     );
   }
